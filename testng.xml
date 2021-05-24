@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <parameter name="Browsername" value="chrome"></parameter>
     <classes>
-      <class name="com.automation.Scripts.Opencart"/>
+      <class name="com.automation.Scripts.Purchase_Product"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

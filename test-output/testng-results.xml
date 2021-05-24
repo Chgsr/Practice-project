@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12677" started-at="2021-05-16T23:35:59 IST" finished-at="2021-05-16T23:36:12 IST">
+  <suite name="Suite" duration-ms="15451" started-at="2021-05-24T13:42:07 IST" finished-at="2021-05-24T13:42:22 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12677" started-at="2021-05-16T23:35:59 IST" finished-at="2021-05-16T23:36:12 IST">
-      <class name="com.automation.Scripts.Opencart">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="OpenBrowser" is-config="true" duration-ms="3025" started-at="2021-05-16T23:35:56 IST" finished-at="2021-05-16T23:35:59 IST">
+    <test name="Test" duration-ms="15451" started-at="2021-05-24T13:42:07 IST" finished-at="2021-05-24T13:42:22 IST">
+      <class name="com.automation.Scripts.Purchase_Product">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="OpenBrowser" is-config="true" duration-ms="4671" started-at="2021-05-24T13:42:02 IST" finished-at="2021-05-24T13:42:07 IST">
           <params>
             <param index="0">
               <value>
@@ -18,45 +18,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="BeforeTest" is-config="true" duration-ms="202" started-at="2021-05-16T23:35:59 IST" finished-at="2021-05-16T23:35:59 IST">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="BeforeTest" is-config="true" duration-ms="186" started-at="2021-05-24T13:42:07 IST" finished-at="2021-05-24T13:42:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="Beforemethod" is-config="true" duration-ms="8" started-at="2021-05-16T23:35:59 IST" finished-at="2021-05-16T23:35:59 IST">
+        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="Beforemethod" is-config="true" duration-ms="6" started-at="2021-05-24T13:42:07 IST" finished-at="2021-05-24T13:42:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.automation.Scripts.Opencart.Opencart_Registration() throws com.Automation.CustomisedExceptions.FrameWorkExceptions,java.io.IOException]]>
+                <![CDATA[public void com.automation.Scripts.Purchase_Product.Opencart_PurchaseProduct() throws com.Automation.CustomisedExceptions.FrameWorkExceptions,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Opencart_Registration()[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="Opencart_Registration" duration-ms="11738" started-at="2021-05-16T23:35:59 IST" finished-at="2021-05-16T23:36:11 IST">
+        <test-method status="PASS" signature="Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="Opencart_PurchaseProduct" duration-ms="13988" started-at="2021-05-24T13:42:07 IST" finished-at="2021-05-24T13:42:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Opencart_Registration -->
-        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="Aftermethod" is-config="true" duration-ms="543" started-at="2021-05-16T23:36:11 IST" finished-at="2021-05-16T23:36:12 IST">
+        </test-method> <!-- Opencart_PurchaseProduct -->
+        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="Aftermethod" is-config="true" duration-ms="1083" started-at="2021-05-24T13:42:21 IST" finished-at="2021-05-24T13:42:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Opencart_Registration status=SUCCESS method=Opencart.Opencart_Registration()[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08] output={null}]]]>
+                <![CDATA[[TestResult name=Opencart_PurchaseProduct status=SUCCESS method=Purchase_Product.Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="AfterTest" is-config="true" duration-ms="56" started-at="2021-05-16T23:36:12 IST" finished-at="2021-05-16T23:36:12 IST">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="AfterTest" is-config="true" duration-ms="126" started-at="2021-05-24T13:42:22 IST" finished-at="2021-05-24T13:42:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Opencart@1a1d6a08]" name="Closebrowser" is-config="true" duration-ms="801" started-at="2021-05-16T23:36:12 IST" finished-at="2021-05-16T23:36:12 IST">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Purchase_Product@58c1670b]" name="Closebrowser" is-config="true" duration-ms="1271" started-at="2021-05-24T13:42:22 IST" finished-at="2021-05-24T13:42:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-      </class> <!-- com.automation.Scripts.Opencart -->
+      </class> <!-- com.automation.Scripts.Purchase_Product -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

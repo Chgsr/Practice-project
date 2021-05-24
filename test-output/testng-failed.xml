@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Scripts.Opencart">
+      <class name="com.automation.Scripts.Purchase_Product">
         <methods>
-          <include name="Opencart_Registration"/>
           <include name="BeforeTest"/>
           <include name="AfterTest"/>
+          <include name="Opencart_PurchaseProduct"/>
           <include name="OpenBrowser"/>
           <include name="Beforemethod"/>
           <include name="Aftermethod"/>
           <include name="Closebrowser"/>
         </methods>
-      </class> <!-- com.automation.Scripts.Opencart -->
+      </class> <!-- com.automation.Scripts.Purchase_Product -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

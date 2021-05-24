@@ -15,7 +15,7 @@ public interface ScreenshotUtility {
 	
 	public static void Takescreenshot(String Name) throws IOException
 	{
-		TakesScreenshot screenshot= (TakesScreenshot) BaseTest.getDriver();
+		TakesScreenshot  screenshot= (TakesScreenshot) BaseTest.getDriver();
 		File Img=screenshot.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(Img, new File(BaseTest.getCurrentDirectory()+"\\Screenshots\\"+Name+".jpeg"));
 	}
